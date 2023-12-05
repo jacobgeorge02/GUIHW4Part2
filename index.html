@@ -1,0 +1,49 @@
+<!--
+File: index.html
+GUI Assignment: HW4
+Jacob George, UMass Lowell Computer Science,
+jacob_george@student.uml.edu
+Copyright (c) 2023 by Jacob George. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JG on November 30th at 
+Sources:
+http://plugins.jquery.com/
+https://jqueryvalidation.org/
+-->
+<html>
+  <head>
+    <title>JavaScript Checkout Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/javascript.js"></script>
+  </head>
+  
+<body>
+  <div class="input">
+    <form id="buttonForm"> <!-- used to get user input-->
+        <h1>Enter Minimum Column Value (Between -50 to 50)</h1> <!-- ask users to put in values for columns and rows-->
+        <input type="number" id="firstNumber" placeholder="Enter minimum column value">
+        <div id="firstSlide"></div> <!--giving name to slider-->
+        <h2>Enter Maximum Column Value (Between -50 to 50)</h2>
+        <input type="number" id="secondNumber" placeholder="Enter maximum column value"><br>
+        <div id="secondSlide"></div> <!--giving name to slider-->
+        <h3>Enter Minimum Row Value (Between -50 to 50)</h3>
+        <input type="number" id="thirdNumber" placeholder="Enter minimum row value"><br>
+        <div id="thirdSlide"></div> <!--giving name to slider-->
+        <h4>Enter Maximum Row Value (Between -50 to 50)</h4>
+        <input type="number" id="fourthNumber" placeholder="Enter maximum row value"><br><br>
+        <div id="fourthSlide"></div> <!--giving name to slider-->
+        <input type="submit" value="Submit"><br>
+    </form>
+  </div>
+<div id="error-message"></div> <!-- will display error message-->
+<div id="multiplicationTableClass"> <!-- will display the multiplication table-->
+  <table id="multiplicationTable"> 
+    <tbody></tbody>
+  </table>
+</div>
+  <script src="js/javascript.js"></script>
+</body>
+</html>

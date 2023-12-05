@@ -1,0 +1,23 @@
+h1, h2, h3, h4, input { /*editing the fonts of the title*/
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#multiplicationTable { 
+    width: 20%; /* giving each cell width/space between each other */
+    background-color: rgb(244, 248, 10); /* gives each of the cells a background color */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* setting the font */
+    color: red; /* setting the font color */
+}
+
+#multiplicationTable td {
+    border: 1px solid red; /* table data cell will have red borders*/
+    border-color: coral; /* table data cell color */
+    text-align: center; /* align the text inside the data cell to be in the center */
+}
+
+#error-message {
+    color: darkorange; /* setting color of text */
+    font-weight: bold; /* setting properties of font */
+    font-family: Arial, Helvetica, sans-serif
+}
